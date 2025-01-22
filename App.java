@@ -76,7 +76,7 @@ public class App {
         generateIncrementalOutput(start, end);
 
         // Ask the user to enter a number for the guessing game
-        System.out.print("Enter a number between 1 and 100: ");
+        System.out.print("Guess a number between 1 and 100: ");
         int number = input.nextInt(); // Read the initial guess
 
         // Start the guessing game
