@@ -49,7 +49,7 @@ public class App {
                 }
             } else {
                 // If the number is outside the valid range, print an error message
-                System.out.println("Please enter a number between 1 and 100.");
+                System.out.println("Invalid input! Please enter a number between 1 and 100.");
             }
 
             // Ask the user to enter a new guess
