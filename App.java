@@ -27,7 +27,7 @@ public class App {
         }
     }
 
-    // Method for the number guessing game
+    // Method for the guessing process
     public static boolean guessingNumber(int number) {
         Random rng = new Random(); // Create a Random object
         int randomNumber = rng.nextInt(100) + 1; // Generate a random number between 1 and 100
@@ -75,11 +75,11 @@ public class App {
         // Generate and print the incremental output
         generateIncrementalOutput(start, end);
 
-        // Ask the user to enter a number for the guessing game
+        // Ask the user to enter a number for guessing 
         System.out.print("Guess a number between 1 and 100: ");
         int number = input.nextInt(); // Read the initial guess
 
-        // Start the guessing game
+        // Start the guessing process
         guessingNumber(number);
     }
 }
